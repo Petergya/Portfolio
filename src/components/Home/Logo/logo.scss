@@ -1,0 +1,39 @@
+.Logo-container {
+  z-index: 0;
+  width: 200px;
+  height: 609px;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  left: 15%;
+  margin: auto;
+  opacity: 0.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    transform: rotateZ(30deg) !important;
+  }
+
+  .Solid-logo {
+    
+    margin: auto;
+    height: 1000px;
+    width: 1000px;
+    margin-bottom: 10%;
+    transform: rotateZ(30dg);
+    z-index: 1;
+    border-radius: 50%;
+    
+    // clip-path: circle();to make a circle
+  }
+}
+
+.svg-container {
+  stroke: #ffd700;
+  stroke-width: 10px;
+}
